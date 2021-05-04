@@ -109,7 +109,9 @@
     overflow-x: hidden;
     /* overflow-y: scroll; */
   }
-  
+  .box {
+      background-color: #fef9f4;
+  }
   body {
     font-family: "Montserrat Alternates", sans-serif;
     margin: 0;
@@ -117,7 +119,9 @@
     background-color: #141740;
     overflow-x: hidden;
   }
-  
+  .bg-primary {
+      background-color: #141740;
+  }
   #code-graphic {
     z-index: 98;
   }
@@ -133,6 +137,9 @@
     font-family: "Source Code Pro", monospace;
     color: #f5f5f5;
   }
+  .title, .subtitle{
+      color: #fef9f4;
+  }
   .tabs a {
     color: #f5f5f5;
   }
@@ -143,7 +150,7 @@
     /* 
     font-size: 12em;
     font-weight: 700; */
-    color: #f5f5f5;
+    color: #fef9f4;
     text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191,
       1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
       1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191,
@@ -254,8 +261,8 @@
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: #b369e2; /* Set a background color */
-    color: white; /* Text color */
+    background-color: #00afb9; /* Set a background color */
+    color: #fef9f4; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px;
     border-radius: 10px; /* Rounded corners */
@@ -275,7 +282,7 @@
     will-change: opacity, visibility;
   }
   .fade-in-section.is-visible {
-    opacity: 1;
+    opacity: .7;
     -webkit-transform: none;
         -ms-transform: none;
             transform: none;
@@ -293,7 +300,9 @@
   .rounded {
     border-radius: 0.5rem;
   }
-  
+  .secondary-color{
+      color: #00afb9;
+  }
   .shadow-drop {
     -webkit-box-shadow: 1px 18px 6px rgba(16, 16, 16, 0.4),
       1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2),
@@ -305,12 +314,12 @@
   /* Style the header */
   
   .label {
-    color: white;
+    color: #fef9f4;
   }
   
   /* Style the footer */
   .footer {
-    background-color: #f1f1f1;
+    background-color: #fef9f4;
     padding: 10px;
     text-align: center;
   }
