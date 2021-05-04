@@ -22,51 +22,74 @@
 
 <body>
     
-    <div class="content-wrapper">
     <!-- Header/Landing Hero -->
     <section class="hero is-fullheight ">
-<!-- 
+
         <div class="hero-head">
-            <h2>Add Something Fun Here....</h2>
-        </div> -->
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="../">
+                            <img src="../images/bulma.png" alt="Logo">
+                        </a>
+                        <span class="navbar-burger burger" data-target="navbarMenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenu" class="navbar-menu">
+                        <div class="navbar-end">
+                            <div class="tabs is-right">
+                                <ul>
+                                    
+                                    <li><a href="#project-section">Projects</a></li>
+                                    <li><a href="#about-section">About</a></li>
+                                    <li><a href="#contact-section">Contact</a></li>
+                                  
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
         <div class="hero-body">
             <div class="container has-text-centered">
-            <div class="columns">
-                    <div class="column has-text-left has-text-light">
-                <h1 class="title is-2 name-header">Mike <br> McDonald</h1>
-                <h2 class="subtitle profession title-shadow is-size-3 has-text-light">
+            <div class="columns is-vcentered">
+                    <div class="column is-5">
+                <h1 class="title is-1 name-header">Mike <br> McDonald</h1>
+                <h2 class="subtitle is-3 title-shadow has-text-light">
                    :// Full Stack Developer and Designer
                 </h2>
             </div>
-            <div class="column is-hidden-mobile">
+            <div class="column is-6 is-offset-1 is-hidden-mobile">
                 <figure class=""  data-aos="fade-up-left"
                 data-aos-delay="300"
-                data-aos-duration="1500" class="image   is-square">
-                    <img class="image title-shadow" src="./assets/images/web-programming-white.svg"></img>
+                data-aos-duration="1500" class="image  is-square">
+                    <img class="title-shadow image" src="./assets/images/web-programming-white.svg"></img>
                 </figure>
                 
             </div>
         </div>
         </div>
-            
         </div>
         <div class="hero-foot">
-            <div class="hero-foot--wrapper ">
-                <div class="columns">
-                    <div clsss="column is-12 hero-menu-desktop has-text-centered"></div>
-                    <ul class="">
-                        <li class="item"><a href="#project-section">Projects</a></li>
-                        <li class="item"><a href="#about-section">About Me</a></li>
-                        <li class="item"><a href="#contact-section">Contact</a></li>
+            <div class="container">
+                <div class="tabs is-centered">
+                    <ul>
+                        <li><a>And this is the bottom</a></li>
                     </ul>
-                </div>
                 </div>
             </div>
         </div>
+     
+        
     </section>
 <!-- End Landing Hero -->
     <!-- Project Section -->
-    <section class="hero is-fullheight container " id="project-section">
+    <section class="hero is-fullheight  " id="project-section">
         <div class="hero-head">
             <h1 class="section-title title has-text-centered ">
                 Projects
@@ -76,9 +99,9 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="box">
+                        <div data-aos-duration="1000" data-aos="zoom-in-up" class="box">
                             <h1 class="subtitle">Tipsy Tales</h1>
-                            <figure class="image is-4by3 project-img">
+                            <figure class="demo-image is-4by3 project-img">
                                 <img src="./assets/images/ttDemo_320.gif" />
                             </figure>
                             <p>
@@ -94,23 +117,23 @@
                             </p>
                             <div class="field is-grouped">
                                 <p class="control">
-                                    <button class="button is-link">Live Demo</button>
+                                    <a class="button is-link" href="https://tipsytales.netlify.app">Live Demo</a>
                                 </p>
                                 <p class="control">
-                                    <button class="button">
+                                    <a class="button" href="http://www.github.com/wizardoutofwater/front-end-project">
                                         <span class="icon">
                                             <i class="fab fa-github"></i>
                                         </span>
                                         <span>View Source</span>
-                                    </button>
+                                    </a>
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="column">
-                        <div class="box">
+                        <div data-aos-duration="1000" data-aos="zoom-in-up" class="box">
                             <h1 class="subtitle">re:union</h1>
-                            <figure class="image is-4by3 project-img">
+                            <figure class="demo-image is-4by3 project-img">
                                 <img src="./assets/images/reunion_demo_640.gif" />
                             </figure>
                             <p>
@@ -126,23 +149,23 @@
                             </p>
                             <div class="field is-grouped">
                                 <p class="control">
-                                    <button class="button is-link">Live Demo</button>
+                                    <a class="button is-link" href="https://re-union.herokuapp.com">Live Demo</a>
                                 </p>
                                 <p class="control">
-                                    <button class="button">
+                                    <a class="button" href="http://www.github.com/wizardoutofwater/full-stack-project">
                                         <span class="icon">
                                             <i class="fab fa-github"></i>
                                         </span>
                                         <span>View Source</span>
-                                    </button>
+                                    </a>
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="column">
-                        <div class="box">
-                            <h1 class="subtitle">Capstone Project</h1>
-                            <figure class="image is-4by3">
+                        <div data-aos-duration="1000" data-aos="zoom-in-up" class="box">
+                            <h1 class="subtitle">Snippit</h1>
+                            <figure class="demo-image is-4by3">
                                 <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image" />
                             </figure>
                             <p>
@@ -156,17 +179,17 @@
                                 billions upon billions upon billions upon billions upon
                                 billions upon billions upon billions.
                             </p>
-                            <div class="field is-grouped">
+                            <div class="field is-grouped ">
                                 <p class="control">
-                                    <button class="button is-link">Live Demo</button>
+                                    <a class="button is-link" href="https://snip-test.herokuapp.com">Live Demo</a>
                                 </p>
                                 <p class="control">
-                                    <button class="button">
+                                    <a class="button" href="http://www.github.com/wizardoutofwater/capstone">
                                         <span class="icon">
                                             <i class="fab fa-github"></i>
                                         </span>
                                         <span>View Source</span>
-                                    </button>
+                                    </a>
                                 </p>
                             </div>
                         </div>
@@ -177,9 +200,9 @@
     </section>
 <!-- End Project Section -->
     <!-- About Section -->
-    <section class="hero section is-fullheight container" id="about-section">
+    <section class="hero  is-fullheight " id="about-section">
         <div class="hero-head">
-            <h1 class="section-title title has-text-centered section-title">
+            <h1 class="section-title title has-text-centered">
                 About Me
             </h1>
         </div>
@@ -259,23 +282,25 @@
                         </p>
                     
                     </div>
+                 
                     <div class="column is-half has-text-left">
+                        <form name="contact" method="POST" data-netlify="true">
                         <div class="field">
                             <label class="label">Name</label>
                             <div class="control">
-                                <input class="input is-medium" type="text" />
+                                <input class="input is-medium" type="text" name="name" />
                             </div>
                         </div>
                         <div class="field">
                             <label class="label">Email</label>
                             <div class="control">
-                                <input class="input is-medium" type="text" />
+                                <input class="input is-medium" type="email" name="email" />
                             </div>
                         </div>
                         <div class="field">
                             <label class="label">Message</label>
                             <div class="control">
-                                <textarea class="textarea is-medium"></textarea>
+                                <textarea class="textarea is-medium" name="message"></textarea>
                             </div>
                         </div>
                         <div class="control">
@@ -283,7 +308,9 @@
                                 Send Message
                             </button>
                         </div>
+                    </form>
                     </div>
+        
                 </div>
             </div>
         </div>
@@ -332,29 +359,31 @@
     <!-- End Footer -->
 </div>
     <!-- Back To Top Button -->
-    <!-- <button onclick="topFunction()" class="fade-in-section" id="topBtn" title="Go to top">
+    <button onclick="topFunction()" class="fade-in-section" id="topBtn" title="Go to top">
         Top
-    </button> -->
-</div>
-<!-- <div class="bg-animation">
+    </button>
+
+<div class="bg-animation">
 
     <img class="squares move-left square1" src="./assets/images/Asset 5.svg">
     <img class="squares move-right square2" src="./assets/images/Asset 6.svg">
     <img class="squares move-left move-up square3" src="./assets/images/Asset 7.svg">
     <img class="squares move-right square4" src="./assets/images/Asset 8.svg">
-        
+        <!-- <img class="squares move-left square5" src="./assets/images/Asset 9.svg"> -->
       
-</div> -->
+</div>
 
     <!-- AOS -->
-    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-    </script> -->
+    </script>
 
 
 
     <script src="./scripts/index.js"></script>
+    <script src="./scripts/bulma.js"></script>
+    <!-- <script src="./scripts/showcase.js"></script> -->
 </body>
 
 </html>

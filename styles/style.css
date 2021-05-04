@@ -58,8 +58,8 @@ background-color:#878bd6;
 
 .name-header{
   font-family: 'Montserrat Alternates', sans-serif;
-  font-weight: 800;
-  font-size: 6rem;
+  /* font-weight: 800;
+  font-size: 6rem; */
   /* transform: translate(50%,-50%); */
 
 /* 
@@ -85,7 +85,7 @@ background-color:#878bd6;
 
 
 
-.title-shadow, .image {
+.title-shadow, .image{
   /* filter: drop-shadow( 1px 30px 60px rgba(16,16,16,0.4)); */
   text-shadow: 
   1px 1px 1px #919191,
@@ -182,9 +182,9 @@ background-color:#878bd6;
   background-color: red; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; Some padding
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; Increase font size
+  padding: 15px;
+    border-radius: 10px; /* Rounded corners */
+  font-size: 18px; 
 }
 .fade-in-section {
   opacity: 0;
@@ -220,7 +220,6 @@ background-color:#878bd6;
 }
 /* Style the header */
 
-}
 .label{
   color: white;
 }
