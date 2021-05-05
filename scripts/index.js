@@ -2,18 +2,21 @@ console.log('main js loaded');
 
 // Scroll to top button
 //Get the button:
-mybutton = document.getElementById("topBtn");
+let myButton = document.getElementById("topBtn");
+let downArrow = document.getElementById("downArrow");
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    // mybutton.style.display = "block";
-    mybutton.classList.add ('is-visible')
+    // myButton.style.display = "block";
+    myButton.classList.add ('is-visible')
+    downArrow.classList.add ('is-not-visible')
   } else {
-    // mybutton.style.display = "none";
-    mybutton.classList.remove('is-visible')
+    // myButton.style.display = "none";
+    myButton.classList.remove('is-visible')
+    downArrow.classList.remove('is-not-visible')
   }
 }
 

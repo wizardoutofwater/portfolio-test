@@ -17,10 +17,11 @@
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link href="./styles/style-prefixed.css" rel="stylesheet" />
-
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
 
 <body>
+    <!-- Designed and Coded by Mike McDonald - 2021 - *** github.com/wizardoutofwater -->
     
     <!-- Header/Landing Hero -->
     <section class="hero is-fullheight ">
@@ -40,8 +41,8 @@
                     </div>
                     <div id="navbarMenu" class="navbar-menu">
                         <div class="navbar-end">
-                            <div class="tabs is-right">
-                                <ul class="nav-links ">
+                            <div class=" is-right">
+                                <ul >
                                     <li><a href="#about-section">About</a></li>
                                     <li><a href="#project-section">Projects</a></li>
                                     <li><a href="#contact-section">Contact</a></li>
@@ -64,10 +65,10 @@
                 </h2>
             </div>
             <div id="code-graphic" class="column is-4 is-offset-1 is-hidden-mobile">
-                <figure class=""  data-aos="fade-up-left"
+                <figure data-aos="fade-up-left"
                 data-aos-delay="300"
-                data-aos-duration="1500" class="image  is-square">
-                    <img class="title-shadow image" src="./assets/images/web-programming-white.svg"></img>
+                data-aos-duration="1500" class="is-square">
+                    <img class="title-shadow shadow-image" src="./assets/images/web-programming-white.svg"></img>
                 </figure>
                 
             </div>
@@ -76,9 +77,12 @@
         </div>
         <div class="hero-foot">
             <div class="container">
-                <div class="has-text-centered secondary-color">
+                <div id="downArrow" class="has-text-centered secondary-color opacityPulse-css  ">
                     
-                        <p>Scroll down to learn more...</p>
+                        <p >Scroll down to learn more...</p>
+                        <span class="icon">
+                            <i class="fas fa-angle-double-down"></i>
+                        </span>
                     
                 </div>
             </div>
@@ -90,7 +94,7 @@
       <!-- About Section -->
     <section class="hero  is-fullheight pt-3 " id="about-section">
         <div class="hero-head">
-            <h1 class="section-title title has-text-centered has-text-light">
+            <h1 class="section-title title has-text-centered is-2">
                 About Me
             </h1>
         </div>
@@ -100,12 +104,71 @@
                     <div class="tile is-4 is-vertical is-parent">
                         <div class="tile is-child box" data-aos-duration="1000" data-aos="zoom-in-up">
                             <p class="title">One</p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                                ornare magna eros, eu pellentesque tortor vestibulum ut.
-                                Maecenas non massa sem. Etiam finibus odio quis feugiat
-                                facilisis.
-                            </p>
+                            <div class="columns has-text-centered">
+                                <div class="column is-justify-content-center">
+                                    <span class="fab fa-react fa-2x"></span> 
+                                    <br/>   
+                                    <span>React</span>
+                                </div>
+                                <div class="column is-justify-content-center">
+                                    <i class="fab fa-js-square fa-2x"></i>
+                                    <br/>   
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="column is-justify-content-center">
+                                    <i class="fab fa-css3-alt fa-2x"></i>
+                                    <br/>   
+                                    <span>CSS</span>
+                                </div>
+                                <div class="column is-justify-content-center">
+                                    <i class="fab fa-html5 fa-2x"></i>
+                                    <br/>   
+                                    <span>HTML</span>
+                                </div>
+                                <div class="column is-justify-content-center">
+                                    <i class="fab fa-bootstrap fa-2x"></i>
+                                    <br/>   
+                                    <span>Bootstrap</span>
+                                </div>
+                                <div class="column is-justify-content-center">
+                                    <i class="fab fa-node-js fa-2x"></i>
+                                    <br/>   
+                                    <span>Node.js</span>
+                                </div>
+                                <div class="column is-justify-content-center">
+                                    <i class="fab fa-git fa-2x"></i>
+                                    <br/>   
+                                    <span>git</span>
+                                </div>
+                                <div class="column is-justify-content-center">
+                                    <i class="fab fa-github fa-2x"></i>
+                                    <br/>   
+                                    <span>GitHub</span>
+                                </div>
+                                <div class="column is-justify-content-center">
+                                    <i class="fab fa-figma fa-2x"></i>
+                                    <br/>   
+                                    <span>Figma</span>
+                                </div>
+                                <div class="column is-justify-content-center">
+                                    <i class="fab fa-sass fa-2x"></i>
+                                    <br/>   
+                                    <span>SASS</span>
+                                </div>
+                                <div class="column is-justify-content-center">
+                                    <span class="iconify" data-icon="logos:express" data-inline="false"></span>
+                                    <br/>   
+                                    <span>Express.js</span>
+                                </div>
+                                <div class="column is-justify-content-center">
+                                    <span class="iconify" data-icon="logos-bulma" data-inline="false"></span>
+                                    <br/>   
+                                    <span>Bulma</span>
+                                </div>
+
+                               
+                                    
+                            </div>
                         </div>
                         <div class="tile is-child box" data-aos-duration="1000" data-aos="zoom-in-up">
                             <p class="title">Two</p>
@@ -154,7 +217,7 @@
   <!-- Project Section -->
   <section class="hero is-fullheight  " id="project-section">
     <div class="hero-head pt-2">
-        <h1 class="section-title title has-text-centered has-text-light ">
+        <h1 class="section-title title has-text-centered is-2 ">
             Projects
         </h1>
     </div>
