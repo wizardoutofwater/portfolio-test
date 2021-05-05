@@ -19,6 +19,9 @@ html {
   overflow-x: hidden;
   /* overflow-y: scroll; */
 }
+.about-title {
+    font-family: "Source Code Pro", monospace;
+}
 .box {
   background-color: #fef9f4;
 }
