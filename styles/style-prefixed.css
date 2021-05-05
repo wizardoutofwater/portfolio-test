@@ -73,6 +73,32 @@ body {
   -ms-flex-direction: column;
   flex-direction: column;
 }
+#skills, #skills div{
+    display: flex;
+    /* padding: 0;
+    margin: 0; */
+}
+#skills {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+#skills .skill{
+    /* flex-basis: 25%; */
+}
+
+.skill i{
+    /* margin-bottom: 0; */
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    
+
+}
 
 .nav-links,
 .nav-links a {
