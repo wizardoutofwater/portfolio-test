@@ -77,15 +77,16 @@ body {
 }
 #skills,
 #contact-links,
-#skills div {
+#skills div,
+#contact-links div {
   display: flex;
   /* padding: 0;
     margin: 0; */
 }
-#skills,
-#contact {
+#skills {
   width: 100%;
   flex-wrap: wrap;
+    
   justify-content: space-around;
 }
 #skills .skill {
@@ -98,12 +99,13 @@ body {
 #contact-links a{
 
 }
-.skill {
+.skill, .resource {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 1em;
+  
 }
 
 .nav-links,
