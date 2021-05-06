@@ -1,449 +1,557 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>Portfolio-Bulma</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    
-    <script src="https://kit.fontawesome.com/114e8224e0.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/114e8224e0.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;800&family=Source+Code+Pro&display=swap"
-        rel="stylesheet" />
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;800&family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css"
+    />
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link href="./styles/style-prefixed.css" rel="stylesheet" />
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Designed and Coded by Mike McDonald - 2021 - *** github.com/wizardoutofwater -->
-    
-    <!-- Header/Landing Hero -->
-    <section class="hero is-fullheight ">
-
+    <div class="container is-max-desktop">
+      <!-- Header/Landing Hero -->
+      <section class="hero is-fullheight">
         <div class="hero-head">
-            <nav class="navbar">
-                <div class="container">
-                    <div class="navbar-brand">
-                        <!-- <a class="navbar-item" href="../">
+          <nav class="navbar">
+            <div class="container">
+              <div class="navbar-brand">
+                <!-- <a class="navbar-item" href="../">
                             <img src="../images/bulma.png" alt="Logo">
                         </a> -->
-                        <span class="navbar-burger burger secondary-color" data-target="navbarMenu">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </span>
-                    </div>
-                    <div id="navbarMenu" class="navbar-menu">
-                        <div class="navbar-end">
-                            <div class="tabs is-right">
-                                <ul >
-                                    <li><a href="#about-section">About</a></li>
-                                    <li><a href="#project-section">Projects</a></li>
-                                    <li><a href="#contact-section">Contact</a></li>
-                                  
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                <span
+                  class="navbar-burger burger secondary-color"
+                  data-target="navbarMenu"
+                >
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+              </div>
+              <div id="navbarMenu" class="navbar-menu">
+                <div class="navbar-end">
+                  <div class="tabs is-right">
+                    <ul>
+                      <li><a href="#about-section">About</a></li>
+                      <li><a href="#project-section">Projects</a></li>
+                      <li><a href="#contact-section">Contact</a></li>
+                    </ul>
+                  </div>
                 </div>
-            </nav>
+              </div>
+            </div>
+          </nav>
         </div>
 
         <div class="hero-body">
-            <div class="container has-text-centered">
+          <div class="container has-text-centered">
             <div class="columns is-vcentered">
-                    <div class="column is-6">
-                <h1 class="title is-1 name-header">Mike <br> McDonald</h1>
-                <h2 class="subtitle is-3 is-size-5-mobile  ">
-                   :// Full Stack Developer <br/> and Designer
+              <div class="column is-6">
+                <h1 class="title is-1 name-header">
+                  Mike <br />
+                  McDonald
+                </h1>
+                <h2 class="subtitle is-3 is-size-5-mobile">
+                  :// Full Stack Developer <br />
+                  and Designer
                 </h2>
-            </div>
-            <div class="column mt-6 is-hidden-tablet">
-                <div id="downArrow" class="has-text-centered secondary-color opacityPulse-css  ">
-                    
-                        <p >Scroll down to learn more...</p>
-                        <span class="icon">
-                            <i class="fas fa-angle-double-down"></i>
-                        </span>
-                    
+                <!-- <div class="is-flex-direction-row">
+                    <div class="">
+                  <a href="http://www.linkedin.com/in/mike-mcd">
+                    <span class="icon is-size-2">
+                      <i class="fab fa-linkedin"></i>
+                    </span>
+                  </a>
                 </div>
-            </div>
-            <div id="code-graphic" class="column is-4 is-offset-1 is-hidden-mobile">
-                <figure data-aos="fade-up-left"
-                data-aos-delay="300"
-                data-aos-duration="1500" class="is-square">
-                    <img class="title-shadow shadow-image" src="./assets/images/web-programming-white.svg"/>
+                  &emsp;
+                  <div class="">
+                    <a href="http://www.github.com/wizardoutofwater">
+                      <span class="icon is-size-2">
+                        <i class="fab fa-github"></i>
+                      </span>
+                    </a>
+                  </div>
+                  &emsp;
+                  <div class="">
+                    <a href="mailto:mike.mcd@me.com">
+                      <span class="icon is-size-2">
+                        <i class="fas fa-envelope"></i>
+                      </span>
+                    </a>
+                  </div>
+                </div> -->
+              </div>
+              <div class="column mt-6 is-hidden-tablet">
+                <div
+                  id="downArrow"
+                  class="has-text-centered secondary-color opacityPulse-css"
+                >
+                  <p>Scroll down to learn more...</p>
+                  <span class="icon">
+                    <i class="fas fa-angle-double-down"></i>
+                  </span>
+                </div>
+              </div>
+              <div
+                id="code-graphic"
+                class="column is-4 is-offset-1 is-hidden-mobile"
+              >
+                <figure
+                  data-aos="fade-up-left"
+                  data-aos-delay="300"
+                  data-aos-duration="1500"
+                  class="is-square"
+                >
+                  <img
+                    class="title-shadow shadow-image"
+                    src="./assets/images/web-programming-white.svg"
+                  />
                 </figure>
-                
+              </div>
             </div>
-        </div>
-        </div>
+          </div>
         </div>
         <div class="hero-foot">
-            <div class="container is-hidden-mobile">
-                <div id="downArrow" class="has-text-centered secondary-color opacityPulse-css  ">
-                    
-                        <p >Scroll down to learn more...</p>
-                        <span class="icon">
-                            <i class="fas fa-angle-double-down"></i>
-                        </span>
-                    
-                </div>
+          <div class="container is-hidden-mobile">
+            <div
+              id="downArrow"
+              class="has-text-centered secondary-color opacityPulse-css"
+            >
+              <p>Scroll down to learn more...</p>
+              <span class="icon">
+                <i class="fas fa-angle-double-down"></i>
+              </span>
             </div>
+          </div>
         </div>
-     
-        
-    </section>
-<!-- End Landing Hero -->
+      </section>
+      <!-- End Landing Hero -->
       <!-- About Section -->
-    <section class="hero  is-fullheight pt-3 " id="about-section">
+      <section class="hero is-fullheight pt-3" id="about-section">
         <div class="hero-head">
-            <h1 class="section-title title has-text-centered is-2">
-                About Me
-            </h1>
+          <h1 class="section-title title has-text-centered is-2">About Me</h1>
         </div>
         <div class="hero-body pt-5 flex-column">
-            <div class="container">
-                <div class="tile is-ancestor">
-                    <div class="tile is-parent">
-                        <div class="tile is-child box" data-aos-duration="1000" data-aos="zoom-in-up">
-                            <p class="title">Three</p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                                semper diam at erat pulvinar, at pulvinar felis blandit.
-                                Vestibulum volutpat tellus diam, consequat gravida libero
-                                rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend,
-                                nunc dui porta orci, quis semper odio felis ut quam.
-                            </p>
-                            <p>
-                                Suspendisse varius ligula in molestie lacinia. Maecenas varius
-                                eget ligula a sagittis. Pellentesque interdum, nisl nec
-                                interdum maximus, augue diam porttitor lorem, et sollicitudin
-                                felis neque sit amet erat. Maecenas imperdiet felis nisi,
-                                fringilla luctus felis hendrerit sit amet. Aenean vitae
-                                gravida diam, finibus dignissim turpis. Sed eget varius
-                                ligula, at volutpat tortor.
-                            </p>
-                        
-                        </div>
+          <div class="container">
+            <div class="tile is-ancestor">
+              <div class="tile is-parent">
+                <div
+                  class="tile is-child box"
+                  data-aos-duration="1000"
+                  data-aos="zoom-in-up"
+                >
+                  <p class="title">Three</p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam semper diam at erat pulvinar, at pulvinar felis
+                    blandit. Vestibulum volutpat tellus diam, consequat gravida
+                    libero rhoncus ut. Morbi maximus, leo sit amet vehicula
+                    eleifend, nunc dui porta orci, quis semper odio felis ut
+                    quam.
+                  </p>
+                  <p>
+                    Suspendisse varius ligula in molestie lacinia. Maecenas
+                    varius eget ligula a sagittis. Pellentesque interdum, nisl
+                    nec interdum maximus, augue diam porttitor lorem, et
+                    sollicitudin felis neque sit amet erat. Maecenas imperdiet
+                    felis nisi, fringilla luctus felis hendrerit sit amet.
+                    Aenean vitae gravida diam, finibus dignissim turpis. Sed
+                    eget varius ligula, at volutpat tortor.
+                  </p>
+                </div>
+              </div>
+              <div class="tile is-4 is-vertical is-parent">
+                <div
+                  class="tile is-child box"
+                  data-aos-duration="1000"
+                  data-aos="zoom-in-up"
+                >
+                  <p class="about-title is-size-4 mb-3">://See My</p>
+                  <div
+                    id="contact-links"
+                    class="columns is-justify-content-space-evenly"
+                  >
+                    <div class="column skill has-text-centered">
+                      <a class="" href="http://www.github.com/wizardoutofwater">
+                        <span class="icon is-size-2">
+                          <i class="fab fa-github"></i>
+                        </span>
+                        <span>GitHub</span>
+                      </a>
                     </div>
-                    <div class="tile is-4 is-vertical is-parent">
-                        <div class="tile is-child box" data-aos-duration="1000" data-aos="zoom-in-up">
-                            <p class="about-title is-size-4 mb-3">://See My</p>
-                            <div class="columns is-justify-content-space-evenly">
-                                <div class="column skill has-text-centered">
-                                <a class="" href="http://www.github.com/wizardoutofwater">
-                                    <span class="icon is-size-2">
-                                        <i class="fab fa-github"></i>
-                                    </span>
-                                    <span>GitHub</span>
-                                </a>
-                            </div>
-                            
-                          <div class="column skill has-text-centered">
-                                <a class=" " href="http://www.linkedin.com/in/mike-mcd">
-                                    <span class="icon is-size-2">
-                                        <i class="fab fa-linkedin"></i>
-                                    </span>
-                                    <span>LinkedIn</span>
-                                </a>
-                            </div>
-                            <div class="column skill has-text-centered">
-                                <a class=" " href="./assets/images/mike-mcdonald-resume2021.pdf" download>
-                                    <span class="icon is-size-2">
-                                        <i class="far fa-file"></i>
-                                    </span>
-                                    <span>Resume</span>
-                                </a>
-                            </div>
-                           </div>
-                        </div>
-                        <div class="tile is-child box" data-aos-duration="1000" data-aos="zoom-in-up">
-                            <p class="about-title is-size-4">://Skills</p>
-                            <div class=" has-text-centered" id="skills">
-                                <div class="skill">
-                                    <span class="fab fa-react fa-2x"></span> 
-                                    
-                                    <span>React</span>
-                                </div>
-                                <div class="skill">
-                                    <i class="fab fa-js-square fa-2x"></i>
-                                     
-                                    <span>JavaScript</span>
-                                </div>
-                                <div class="skill">
-                                    <i class="fab fa-css3-alt fa-2x"></i>
-                                     
-                                    <span>CSS</span>
-                                </div>
-                                <div class="skill">
-                                    <i class="fab fa-html5 fa-2x"></i>
-                                     
-                                    <span>HTML</span>
-                                </div>
-                                <div class="skill">
-                                    <i class="fab fa-bootstrap fa-2x"></i>
-                                     
-                                    <span>Bootstrap</span>
-                                </div>
-                                <div class="skill">
-                                    <i class="fab fa-node-js fa-2x"></i>
-                                     
-                                    <span>Node.js</span>
-                                </div>
-                                <div class="skill">
-                                    <i class="fab fa-git fa-2x"></i>
-                                     
-                                    <span>git</span>
-                                </div>
-                                <div class="skill">
-                                    <i class="fab fa-github fa-2x"></i>
-                                     
-                                    <span>GitHub</span>
-                                </div>
-                                <div class="skill">
-                                    <i class="fab fa-figma fa-2x"></i>
-                                     
-                                    <span>Figma</span>
-                                </div>
-                                <div class="skill">
-                                    <i class="fab fa-sass fa-2x"></i>
-                                     
-                                    <span>SASS</span>
-                                </div>
-                                <div class="skill">
-                                    <span class="iconify mb-4" data-icon="logos:express" data-inline="false"></span>
-                                     
-                                    <span class="mt-2">Express.js</span>
-                                </div>
-                                <div class="skill">
-                                    <span class="iconify is-size-2" data-icon="simple-icons:postgresql" data-inline="false"></span>
-                                     
-                                    <span class="mt-2">PostgreSQL</span>
-                                </div>
-                                <div class="skill">
-                                    <span class="iconify is-size-2" data-icon="simple-icons:bulma" data-inline="false"></span>
-                                     
-                                    <span class="mt-2">Bulma</span>
-                                </div>
 
-                               
-                                    
-                            </div>
-                        </div>
-             
+                    <div class="column skill has-text-centered">
+                      <a class=" " href="http://www.linkedin.com/in/mike-mcd">
+                        <span class="icon is-size-2">
+                          <i class="fab fa-linkedin"></i>
+                        </span>
+                        <span>LinkedIn</span>
+                      </a>
                     </div>
-         
+                    <div class="column skill has-text-centered">
+                      <a
+                        class=" "
+                        href="./assets/images/mike-mcdonald-resume2021.pdf"
+                        download
+                      >
+                        <span class="icon is-size-2">
+                          <i class="far fa-file"></i>
+                        </span>
+                        <span>Resume</span>
+                      </a>
+                    </div>
+                  </div>
                 </div>
+                <div
+                  class="tile is-child box"
+                  data-aos-duration="1000"
+                  data-aos="zoom-in-up"
+                >
+                  <p class="about-title is-size-4">://Skills</p>
+                  <div class="has-text-centered" id="skills">
+                    <div class="skill">
+                      <span class="fab fa-react fa-2x"></span>
+                      <span>React</span>
+                    </div>
+                    <div class="skill">
+                      <i class="fab fa-js-square fa-2x"></i>
+                      <span>JavaScript</span>
+                    </div>
+                    <div class="skill">
+                      <i class="fab fa-css3-alt fa-2x"></i>
+                      <span>CSS</span>
+                    </div>
+                    <div class="skill">
+                      <i class="fab fa-html5 fa-2x"></i>
+                      <span>HTML</span>
+                    </div>
+                    <div class="skill">
+                      <i class="fab fa-bootstrap fa-2x"></i>
+                      <span>Bootstrap</span>
+                    </div>
+                    <div class="skill">
+                      <i class="fab fa-node-js fa-2x"></i>
+                      <span>Node.js</span>
+                    </div>
+                    <div class="skill">
+                      <i class="fab fa-git fa-2x"></i>
+                      <span>git</span>
+                    </div>
+                    <div class="skill">
+                      <i class="fab fa-github fa-2x"></i>
+                      <span>GitHub</span>
+                    </div>
+                    <div class="skill">
+                      <i class="fab fa-figma fa-2x"></i>
+                      <span>Figma</span>
+                    </div>
+                    <div class="skill">
+                      <i class="fab fa-sass fa-2x"></i>
+                      <span>SASS</span>
+                    </div>
+                    <div class="skill">
+                      <span
+                        class="iconify mb-4"
+                        data-icon="logos:express"
+                        data-inline="false"
+                      ></span>
+                      <span class="mt-1">Express.js</span>
+                    </div>
+                    <div class="skill">
+                      <span
+                        class="iconify is-size-2"
+                        data-icon="simple-icons:postgresql"
+                        data-inline="false"
+                      ></span>
+                      <span class="mt-0">PostgreSQL</span>
+                    </div>
+                    <div class="skill">
+                      <span
+                        class="iconify is-size-2"
+                        data-icon="simple-icons:bulma"
+                        data-inline="false"
+                      ></span>
+                      <span class="mt-0">Bulma</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-      
+          </div>
         </div>
-    </section>
-<!-- End About Section -->
-  <!-- Project Section -->
-  <section class="hero is-fullheight  " id="project-section">
-    <div class="hero-head pt-2">
-        <h1 class="section-title title has-text-centered is-2 ">
-            Projects
-        </h1>
-    </div>
-    <div class="hero-body pt-5">
-        <!-- <div class="container"> -->
-            <div class="columns ">
-                <div class="column ">
-                    <div data-aos-duration="1000" data-aos="zoom-in-up" class="box">
-                        <p class="about-title is-size-3">Tipsy Tales</p>
-                        <figure class="demo-image is-128x128 ">
-                            <img src="./assets/images/ttDemo-compressed.gif" />
-                        </figure>
-                        <p>
-                            At the edge of forever star stuff harvesting star light rich
-                            in mystery colonies encyclopaedia galactica hydrogen atoms.
-                            The sky calls to us stirred by starlight the ash of stellar
-                            alchemy circumnavigated a very small stage in a vast cosmic
-                            arena trillion. Bits of moving fluff the ash of stellar
-                            alchemy descended from astronomers concept of the number one a
-                            
-                        </p>
-                        <div class="field is-grouped mt-3">
-                            <p class="control">
-                                <a class="button is-link" href="https://tipsytales.netlify.app">Live Demo</a>
-                            </p>
-                            <p class="control">
-                                <a class="button" href="http://www.github.com/wizardoutofwater/front-end-project">
-                                    <span class="icon">
-                                        <i class="fab fa-github"></i>
-                                    </span>
-                                    <span>View Source</span>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div data-aos-duration="1000" data-aos="zoom-in-up" class="box">
-                        <p class="about-title is-size-3">re:union</p>
-                        <figure class="demo-image is-128x128 ">
-                            <img src="./assets/images/reunionDemo-compressed.gif" />
-                        </figure>
-                        <p>
-                            At the edge of forever star stuff harvesting star light rich
-                            in mystery colonies encyclopaedia galactica hydrogen atoms.
-                            The sky calls to us stirred by starlight the ash of stellar
-                            alchemy circumnavigated a very small stage in a vast cosmic
-                            arena trillion. Bits of moving fluff the ash of stellar
-                            alchemy descended from astronomers concept of the number one a
-                           
-                        </p>
-                        <div class="field is-grouped mt-3">
-                            <p class="control">
-                                <a class="button is-link" href="https://re-union.herokuapp.com">Live Demo</a>
-                            </p>
-                            <p class="control">
-                                <a class="button" href="http://www.github.com/wizardoutofwater/full-stack-project">
-                                    <span class="icon">
-                                        <i class="fab fa-github"></i>
-                                    </span>
-                                    <span>View Source</span>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div data-aos-duration="1000" data-aos="zoom-in-up" class="box">
-                        <p class="about-title is-size-3">Snippit</p>
-                        <figure class="demo-image is-128x128">
-                            <img src="./assets/images/snippit-demo.gif" alt="Placeholder image" />
-                        </figure>
-                        <p>
-                            At the edge of forever star stuff harvesting star light rich
-                            in mystery colonies encyclopaedia galactica hydrogen atoms.
-                            The sky calls to us stirred by starlight the ash of stellar
-                            alchemy circumnavigated a very small stage in a vast cosmic
-                            arena trillion. Bits of moving fluff the ash of stellar
-                            alchemy descended from astronomers concept of the number one a
-                         
-                        </p>
-                        <div class="field is-grouped mt-3">
-                            <p class="control">
-                                <a class="button is-link" href="https://snippit-good.herokuapp.com">Live Demo</a>
-                            </p>
-                            <p class="control">
-                                <a class="button" href="http://www.github.com/wizardoutofwater/capstone">
-                                    <span class="icon">
-                                        <i class="fab fa-github"></i>
-                                    </span>
-                                    <span>View Source</span>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        <!-- </div> -->
-    </div>
-</section>
-<!-- End Project Section -->
-    <!-- Contact Section -->
-    <section class="hero is-fullheight " id="contact-section">
+      </section>
+      <!-- End About Section -->
+      <!-- Project Section -->
+      <section class="hero is-fullheight" id="project-section">
+        <div class="hero-head pt-2">
+          <h1 class="section-title title has-text-centered is-2">Projects</h1>
+        </div>
         <div class="hero-body pt-5">
-            <div class="container has-text-centered">
-                <div class="columns is-8 is-variable">
-                    <div class="column is-half has-text-left">
-                        <h1 class="title has-text-light is-1">Let's Connect!</h1>
-                        <p class="lead has-text-light is-size-4">
-                            I am actively searching for new opportunites and would love to 
-                            hear from you. </p>
-                            <p class="lead has-text-light is-size-4"> Reach out using the form or send an Email to <a class="secondary-color" href="mailto:mike.mcd@me.com">mike.mcd@me.com</a>
-                        </p>
-                    
-                    </div>
-                 
-                    <div class="column is-half has-text-left">
-                        <form name="contact" method="POST" data-netlify="true">
-                        <div class="field">
-                            <label class="label">Name</label>
-                            <div class="control">
-                                <input class="input is-medium" type="text" name="name" />
-                            </div>
-                        </div>
-                        <div class="field">
-                            <label class="label">Email</label>
-                            <div class="control">
-                                <input class="input is-medium" type="email" name="email" />
-                            </div>
-                        </div>
-                        <div class="field">
-                            <label class="label">Message</label>
-                            <div class="control">
-                                <textarea class="textarea is-medium" name="message"></textarea>
-                            </div>
-                        </div>
-                        <div class="control">
-                            <button type="submit" class="button is-link is-fullwidth has-text-weight-medium is-medium">
-                                Send Message
-                            </button>
-                        </div>
-                    </form>
-                    </div>
-        
+          <!-- <div class="container"> -->
+          <div class="columns">
+            <div class="column">
+              <div data-aos-duration="1000" data-aos="zoom-in-up" class="box">
+                <p class="about-title is-size-3">Tipsy Tales</p>
+                <figure class="demo-image is-128x128">
+                  <img src="./assets/images/ttDemo-compressed.gif" />
+                </figure>
+                <p>
+                  At the edge of forever star stuff harvesting star light rich
+                  in mystery colonies encyclopaedia galactica hydrogen atoms.
+                  The sky calls to us stirred by starlight the ash of stellar
+                  alchemy circumnavigated a very small stage in a vast cosmic
+                  arena trillion. Bits of moving fluff the ash of stellar
+                  alchemy descended from astronomers concept of the number one a
+                </p>
+                <div class="field is-grouped mt-3">
+                  <p class="control">
+                    <a
+                      class="button is-link"
+                      href="https://tipsytales.netlify.app"
+                      >Live Demo</a
+                    >
+                  </p>
+                  <p class="control">
+                    <a
+                      class="button"
+                      href="http://www.github.com/wizardoutofwater/front-end-project"
+                    >
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>View Source</span>
+                    </a>
+                  </p>
                 </div>
+              </div>
             </div>
+            <div class="column">
+              <div data-aos-duration="1000" data-aos="zoom-in-up" class="box">
+                <p class="about-title is-size-3">re:union</p>
+                <figure class="demo-image is-128x128">
+                  <img src="./assets/images/reunionDemo-compressed.gif" />
+                </figure>
+                <p class="block">
+                  The app allows users to re-connect with their network of
+                  classmates and alumni. Users can sign-in, search by high
+                  school post messages to share with former classmates.
+                </p>
+                <p class="block">
+                  My role was primarly to design and develop the front-end for
+                  this project. We used Handlebars to render templates
+                  server-side, which required a shift in the way I had thought
+                  about the front-end. While at first it was frustrating,
+                  breaking down the design into components forced me to really
+                  focus on the details and understand how the front- and
+                  back-end would interact.
+                </p>
+                <p class="block">
+                  In the end, using a template engine allowed me to repeat less
+                  code and instead spend more time and energy on functionality
+                  and fun aesthetic elements (like the landing page animation)!
+                </p>
+                <div class="field is-grouped mt-3">
+                  <p class="control">
+                    <a
+                      class="button is-link"
+                      href="https://re-union.herokuapp.com"
+                      >Live Demo</a
+                    >
+                  </p>
+                  <p class="control">
+                    <a
+                      class="button"
+                      href="http://www.github.com/wizardoutofwater/full-stack-project"
+                    >
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>View Source</span>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div data-aos-duration="1000" data-aos="zoom-in-up" class="box">
+                <p class="about-title is-size-3">Snippit</p>
+                <figure class="demo-image is-128x128">
+                  <img
+                    src="./assets/images/snippit-demo.gif"
+                    alt="Placeholder image"
+                  />
+                </figure>
+                <p>
+                  At the edge of forever star stuff harvesting star light rich
+                  in mystery colonies encyclopaedia galactica hydrogen atoms.
+                  The sky calls to us stirred by starlight the ash of stellar
+                  alchemy circumnavigated a very small stage in a vast cosmic
+                  arena trillion. Bits of moving fluff the ash of stellar
+                  alchemy descended from astronomers concept of the number one a
+                </p>
+                <div class="field is-grouped mt-3">
+                  <p class="control">
+                    <a
+                      class="button is-link"
+                      href="https://snippit-good.herokuapp.com"
+                      >Live Demo</a
+                    >
+                  </p>
+                  <p class="control">
+                    <a
+                      class="button"
+                      href="http://www.github.com/wizardoutofwater/capstone"
+                    >
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>View Source</span>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- </div> -->
         </div>
-    </section>
-<!-- End Contact Section -->
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="content ">
-            <nav class="level">
-                <div class="level-left">
-                    <div class="level-item">
-                        
-                        <span class="icon">
-                            <i class="fab fa-linkedin"></i>
-                        </span>
-                        &emsp;
-                        <span class="icon">
-                            <i class="fab fa-github"></i>
-                        </span>
-                        &emsp;
-                        <span class="icon">
-                            <i class="fas fa-envelope"><a href="google.com"></a></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="level-right">
-                    <small class="level-item" style="color: var(--textLight)">
-                        <span class="icon-text">
-                            <span>Made with</span>
-                            <span class="icon">
-                              <i class="fas fa-coffee"></i>
-                            </span>
-                            <span>and Bulma.</span>
-                            <br/>
-                            <span> Designed by Mike McDonald.</span>
-                            </span>
-                          
-                    </small>
-                </div>
-            </nav>
-        <!-- </div> -->
-    </footer>
-    <!-- End Footer -->
-</div>
-    <!-- Back To Top Button -->
-    <button onclick="topFunction()" class="fade-in-section" id="topBtn" title="Go to top">
-        Top
-    </button>
+      </section>
+      <!-- End Project Section -->
+      <!-- Contact Section -->
+      <section class="hero is-fullheight" id="contact-section">
+        <div class="hero-body pt-5">
+          <div class="container has-text-centered">
+            <div class="columns is-8 is-variable">
+              <div class="column is-half has-text-left">
+                <h1 class="title has-text-light is-1">Let's Connect!</h1>
+                <p class="block lead has-text-light is-size-4">
+                  I am actively searching for new opportunites and would love to
+                  hear from you.
+                </p>
+                <p class="block lead has-text-light is-size-4">
+                  Reach out using the form or send an Email to
+                  <a class="secondary-color" href="mailto:mike.mcd@me.com"
+                    >mike.mcd@me.com</a
+                  >
+                </p>
+              </div>
 
-<!-- <div class="bg-animation">
+              <div class="column is-half has-text-left">
+                <form name="contact" method="POST" data-netlify="true">
+                  <div class="field">
+                    <label class="label">Name</label>
+                    <div class="control">
+                      <input class="input is-medium" type="text" name="name" />
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control">
+                      <input
+                        class="input is-medium"
+                        type="email"
+                        name="email"
+                      />
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label class="label">Message</label>
+                    <div class="control">
+                      <textarea
+                        class="textarea is-medium"
+                        name="message"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="control">
+                    <button
+                      type="submit"
+                      class="button is-link is-fullwidth has-text-weight-medium is-medium"
+                    >
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="content">
+          <nav class="level">
+            <div class="level-left">
+              <div class="level-item">
+                <a href="http://www.linkedin.com/in/mike-mcd">
+                  <span class="icon">
+                    <i class="fab fa-linkedin"></i>
+                  </span>
+                </a>
+                &emsp;
+                <a href="http://www.github.com/wizardoutofwater">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                </a>
+                &emsp;
+                <a href="mailto:mike.mcd@me.com">
+                  <span class="icon">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="level-right">
+              <small class="level-item" style="color: var(--textLight)">
+                <span class="icon-text">
+                  <span>Made with</span>
+                  <span class="icon">
+                    <i class="fas fa-coffee"></i>
+                  </span>
+                  <span>and Bulma.</span>
+                  <br />
+                  <span> Designed by Mike McDonald.</span>
+                </span>
+              </small>
+            </div>
+          </nav>
+        </div>
+      </footer>
+      <!-- End Footer -->
+      <!-- </div> -->
+
+      <!-- Back To Top Button -->
+      <button
+        onclick="topFunction()"
+        class="fade-in-section"
+        id="topBtn"
+        title="Go to top"
+      >
+        Top
+      </button>
+      <!-- End wrapper container -->
+    </div>
+
+    <!-- <div class="bg-animation">
 
     <img class="squares move-left square1" src="./assets/images/Asset 5.svg">
     <img class="squares move-right square2" src="./assets/images/Asset 6.svg">
@@ -456,15 +564,12 @@
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
+      AOS.init();
     </script>
-
-
 
     <script src="./scripts/index.js"></script>
     <script src="./scripts/bulma.js"></script>
     <script src="./scripts/smoothscroll.min.js"></script>
     <!-- <script src="./scripts/showcase.js"></script> -->
-</body>
-
+  </body>
 </html>

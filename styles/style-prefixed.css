@@ -19,12 +19,7 @@ html {
   overflow-x: hidden;
   /* overflow-y: scroll; */
 }
-.about-title {
-  font-family: "Source Code Pro", monospace;
-}
-.box {
-  background-color: #fef9f4;
-}
+
 body {
   font-family: "Montserrat Alternates", sans-serif;
   margin: 0;
@@ -33,6 +28,12 @@ body {
   overflow-x: hidden;
 }
 
+.about-title {
+  font-family: "Source Code Pro", monospace;
+}
+.box {
+  background-color: #fef9f4;
+}
 #code-graphic {
   z-index: 98;
 }
@@ -75,12 +76,14 @@ body {
   flex-direction: column;
 }
 #skills,
+#contact-links,
 #skills div {
   display: flex;
   /* padding: 0;
     margin: 0; */
 }
-#skills {
+#skills,
+#contact {
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -91,6 +94,9 @@ body {
 
 .skill i {
   /* margin-bottom: 0; */
+}
+#contact-links a{
+
 }
 .skill {
   display: flex;
@@ -111,18 +117,24 @@ body {
 }
 .tabs a {
   color: #fef9f4;
-  border-bottom-color:#fef9f4;
+  border-bottom-color: #fef9f4;
 }
 
 .tabs a:hover {
-    color: #00afb9;
-    border-bottom-color:#00afb9;
+  color: #00afb9;
+  border-bottom-color: #00afb9;
+}
+@media screen and (max-width: 1023px) {
+  .navbar-menu {
+    background-color: transparent;
   }
-  @media screen and (max-width: 1023px) {
-   .navbar-menu {
-       background-color: transparent;
-   }
+}
+.level-item a, #contact-links a{
+    color:#555;
+}
 
+.level-item a:hover, #contact-links a:hover{
+    color:#00afb9;
 }
 .name-header,
 h1 {
