@@ -28,14 +28,22 @@ body {
   overflow-x: hidden;
 }
 
-.about-title {
+.secondary-font {
   font-family: "Source Code Pro", monospace;
 }
 .box {
   background-color: #fef9f4;
 }
+
+.bio, .hidden {
+  visibility: hidden;
+}
+
 #code-graphic {
   z-index: 98;
+}
+#code-graphic img {
+  fill: #fef9f4;
 }
 .opacityPulse-css {
   animation: opacityPulse 3s ease-in-out;
@@ -70,6 +78,7 @@ body {
 } */
 
 .flex-column {
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -86,7 +95,7 @@ body {
 #skills {
   width: 100%;
   flex-wrap: wrap;
-    
+
   justify-content: space-around;
 }
 #skills .skill {
@@ -96,16 +105,18 @@ body {
 .skill i {
   /* margin-bottom: 0; */
 }
-#contact-links a{
-
+#contact-links a {
 }
-.skill, .resource {
+
+.skill,
+.resource {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1em;
-  
+  margin: 0.75em;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 .nav-links,
@@ -130,13 +141,17 @@ body {
   .navbar-menu {
     background-color: transparent;
   }
+
+ 
 }
-.level-item a, #contact-links a{
-    color:#555;
+.level-item a,
+#contact-links a {
+  color: #555;
 }
 
-.level-item a:hover, #contact-links a:hover{
-    color:#00afb9;
+.level-item a:hover,
+#contact-links a:hover {
+  color: #00afb9;
 }
 .name-header,
 h1 {
@@ -158,7 +173,8 @@ h1 {
 .subtitle,
 .profession,
 .footer,
-.label {
+.label,
+.about-title {
   font-family: "Source Code Pro", monospace;
 }
 
@@ -260,6 +276,9 @@ h1 {
 
     justify-content: center;
     flex-wrap: wrap;
+  }
+  .tile.is-child{
+    max-height: max-content;
   }
 }
 
